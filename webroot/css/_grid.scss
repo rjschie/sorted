@@ -1,0 +1,57 @@
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.row {
+	//border: 1px solid red;
+	position: relative;
+	display: table;
+	width: 100%;
+
+	&:after {
+		content: ".";
+		display: none;
+		clear: left;
+		visibility: hidden;
+	}
+}
+
+[class*="grid-"] {
+	//border: 1px solid yellow;
+	float: left;
+	position: relative;
+}
+
+.grid-25 {
+	width: 25%;
+}
+
+.grid-33 {
+	width: 33.33%;
+}
+
+.grid-50 {
+	width: 50%;
+}
+
+.grid-66 {
+	width: 66.66%;
+}
+
+.grid-75 {
+	width: 75%;
+}
+
+.grid-100 {
+	width: 100%;
+}
+
+.panel {
+	display: block;
+	background-color: #adf;
+	border: 1px solid blue;
+	padding: 7px;
+	margin: 7px;
+}

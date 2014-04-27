@@ -1,0 +1,19 @@
+$main-bg: #876aba;
+$link: $main-bg - #222;
+
+@import "grid";
+@import "base";
+
+html {
+}
+
+body {
+}
+
+a {
+	color: $link;
+
+	&:hover, &:focus {
+		color: $link + #444;
+	}
+}

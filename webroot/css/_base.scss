@@ -1,0 +1,59 @@
+.clear {
+	&:after {
+		content: ".";
+		display: none;
+		clear: left;
+		visibility: hidden;
+	}
+}
+
+.centered {
+	float: none;
+	margin: 0 auto;
+}
+
+
+
+.glyphicon {
+	font-size: 8pt;
+	margin-right: 5px;
+}
+
+.btn-default {
+	border-color: $main-bg;
+	color: $link;
+
+	&:hover, &:focus {
+		border-color: white;
+		background-color: $main-bg;
+		color: white;
+	}
+}
+
+.bs-docs-nav {
+
+	background-color: $main-bg;
+
+	.navbar-brand {
+		color: white;
+
+		&:hover, &:focus {
+			color: $link+#555;
+		}
+	}
+
+	.nav a {
+		color: white;
+
+		&:hover, &:focus {
+			background-color: inherit;
+			color: $link+#555;
+		}
+	}
+
+	.navbar-toggle {
+		.icon-bar {
+			background-color: black;
+		}
+	}
+}
