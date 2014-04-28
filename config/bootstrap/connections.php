@@ -66,14 +66,14 @@ use lithium\data\Connections;
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => 'rschie',
-		'database' => 'li3_test',
+		'database' => 'app_sorted',
 		'encoding' => 'UTF-8'
 	),
 	'test' => array(
 		'type' => 'database',
 		'adapter' => 'Sqlite3',
-//		'database' => ':memory:',
-		'database' => LITHIUM_APP_PATH . '/resources/tmp/db/test.db'
+		'database' => ':memory:',
+//		'database' => LITHIUM_APP_PATH . '/resources/tmp/db/test.db'
 	),
 	'production' => array(
 		'type' => 'database',
@@ -81,7 +81,7 @@ use lithium\data\Connections;
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => 'rschie',
-		'database' => 'li3_test',
+		'database' => 'app_sorted',
 		'encoding' => 'UTF-8'
 	)
  ));

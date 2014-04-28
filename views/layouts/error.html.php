@@ -19,7 +19,7 @@ $path = Libraries::get(true, 'path');
 <head>
 	<?php echo $this->html->charset();?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Application &gt; <?php echo $this->title(); ?></title>
+	<title>Sorted &gt; <?php echo $this->title(); ?></title>
 	<?php echo $this->html->style( array(
 		'/bower_components/bootstrap/dist/css/bootstrap.min.css',
 		'/bower_components/normalize-css/normalize.css',

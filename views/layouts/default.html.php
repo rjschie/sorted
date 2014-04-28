@@ -31,13 +31,20 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="<?= $this->url( array( 'Home::index' ) ); ?>" class="navbar-brand">Home</a>
+			<a href="<?= $this->url( '/' ); ?>" class="navbar-brand">Home</a>
 		</div>
 		<nav class="navbar-collapse bs-navbar-collapse collapse in" role="navigation">
-			<ul class="nav navbar-nav">
+			<ul class="nav navbar-nav navbar-left">
 				<li>
-					<!-- <a href="<?= $this->url( array( 'Home::index' ) ); ?>">Home</a> -->
+					<!-- <a href="<?= $this->url( '/' ); ?>">Home</a> -->
 				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<?php if($this->session->loggedIn()): ?>
+					<li><a href="<?= $this->url('/logout'); ?>">Logout</a></li>
+				<?php else: ?>
+					<li><a href="<?= $this->url('/login'); ?>">Login</a></li>
+				<?php endif; ?>
 			</ul>
 		</nav>
 	</div>

@@ -39,14 +39,17 @@ Session::config(array(
  * @see lithium\security\Auth
  */
 
- //use lithium\security\Auth;
+ use lithium\security\Auth;
 
- //Auth::config(array(
- //	'admin' => array(
- //		'adapter' => 'Form',
- //		'model' => 'Administrators',
- //		'fields' => array('username', 'password')
- //	)
- //));
+ Auth::config(array(
+ 	'default' => array(
+ 		'adapter' => 'Form',
+ 		'model' => 'Users',
+ 		'fields' => array('username', 'password'),
+		'validators' => array(		// TODO - remove
+			'password' => false,
+		),
+ 	)
+ ));
 
 ?>
