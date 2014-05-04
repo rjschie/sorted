@@ -2,26 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17c3bdad-5d62-4381-9cb7-551d10d19d4c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extensions/helper/Session.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/cases/controllers/SessionsControllerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extensions/command/UserCreate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Users.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/UsersController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/cases/controllers/UsersControllerTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/fixtures/UsersFixture.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/cases/models/UsersTest.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/sessions/add.html.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/extensions/command/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/extensions/helper/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/cases/controllers/empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/cases/models/empty" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/models/empty" afterPath="$PROJECT_DIR$/controllers/SessionsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/bootstrap.php" afterPath="$PROJECT_DIR$/config/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/bootstrap/connections.php" afterPath="$PROJECT_DIR$/config/bootstrap/connections.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/default.html.php" afterPath="$PROJECT_DIR$/views/layouts/default.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/error.html.php" afterPath="$PROJECT_DIR$/views/layouts/error.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.php" afterPath="$PROJECT_DIR$/config/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/bootstrap/session.php" afterPath="$PROJECT_DIR$/config/bootstrap/session.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extensions/command/CalendarCreate.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Calendars.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/CalendarsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/cases/controllers/CalendarsControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/cases/models/CalendarsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extensions/helper/Date.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extensions/utils/Dates.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extensions/command/EventAdd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extensions/command/EventCreateList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extensions/command/EventRemoveAll.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Events.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/EventsController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/cases/controllers/EventsControllerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/cases/models/EventsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Notes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/extensions/command/Test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/calendars/index.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/events/index.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/fixtures/empty" afterPath="$PROJECT_DIR$/Changelog.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extensions/command/UserCreate.php" afterPath="$PROJECT_DIR$/extensions/command/UserCreate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Users.php" afterPath="$PROJECT_DIR$/models/Users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="li3_framework.iws" />
@@ -44,7 +48,64 @@
     <favorites_list name="li3_framework" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Notes.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Notes.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Events.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/Events.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="6" selection-start="36" selection-end="36" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventsController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/EventsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="30" selection-start="401" selection-end="401" vertical-scroll-proportion="0.47468355" vertical-offset="0" max-vertical-offset="1020">
+              <folding>
+                <element signature="e#35#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/events/index.html.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="2" selection-start="157" selection-end="157" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Date.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extensions/helper/Date.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dates.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extensions/utils/Dates.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="5" selection-start="731" selection-end="731" vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="645">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -62,19 +123,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.php" />
-        <option value="$PROJECT_DIR$/config/bootstrap.php" />
-        <option value="$PROJECT_DIR$/views/layouts/error.html.php" />
-        <option value="$PROJECT_DIR$/controllers/UsersController.php" />
-        <option value="$PROJECT_DIR$/tests/fixtures/UsersFixture.php" />
-        <option value="$PROJECT_DIR$/extensions/helper/User.php" />
-        <option value="$PROJECT_DIR$/views/layouts/default.html.php" />
-        <option value="$PROJECT_DIR$/controllers/SessionsController.php" />
-        <option value="$PROJECT_DIR$/views/sessions/add.html.php" />
-        <option value="$PROJECT_DIR$/config/bootstrap/session.php" />
+        <option value="$PROJECT_DIR$/models/Calendars.php" />
         <option value="$PROJECT_DIR$/models/Users.php" />
-        <option value="$PROJECT_DIR$/tests/cases/controllers/SessionsControllerTest.php" />
-        <option value="$PROJECT_DIR$/config/bootstrap/connections.php" />
+        <option value="$PROJECT_DIR$/views/calendars/view.html.php" />
+        <option value="$PROJECT_DIR$/controllers/CalendarsController.php" />
+        <option value="$PROJECT_DIR$/views/calendars/index.html.php" />
+        <option value="$PROJECT_DIR$/models/Events.php" />
+        <option value="$PROJECT_DIR$/Notes.txt" />
+        <option value="$PROJECT_DIR$/extensions/command/EventRemoveAll.php" />
+        <option value="$PROJECT_DIR$/extensions/command/Test.php" />
+        <option value="$PROJECT_DIR$/extensions/command/EventListCreate.php" />
+        <option value="$PROJECT_DIR$/extensions/command/EventAdd.php" />
+        <option value="$PROJECT_DIR$/extensions/utils/Dates.php" />
+        <option value="$PROJECT_DIR$/extensions/helper/Dates.php" />
+        <option value="$PROJECT_DIR$/views/events/index.html.php" />
+        <option value="$PROJECT_DIR$/extensions/helper/Date.php" />
+        <option value="$PROJECT_DIR$/controllers/EventsController.php" />
       </list>
     </option>
   </component>
@@ -247,8 +311,22 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="Sorted" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sorted" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,119 +344,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_errors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixtures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cases" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="calendars" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,6 +359,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sorted" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Sorted" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extensions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -501,8 +485,8 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -566,7 +550,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="772" y="22" width="668" height="815" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -574,7 +558,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42604503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42604503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -601,118 +585,108 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/layouts/error.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="568" selection-end="568" vertical-scroll-proportion="0.23809524" vertical-offset="0" max-vertical-offset="870" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extensions/command/UserCreate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="2" selection-start="540" selection-end="540" vertical-scroll-proportion="0.67651635" vertical-offset="0" max-vertical-offset="643" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="3" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.54761904" vertical-offset="0" max-vertical-offset="1470" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cases/controllers/UsersControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="2" selection-start="0" selection-end="364" vertical-scroll-proportion="0.45094937" vertical-offset="0" max-vertical-offset="632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bootstrap/libraries.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="32" selection-start="6601" selection-end="6601" vertical-scroll-proportion="2.824367" vertical-offset="0" max-vertical-offset="1920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/fixtures/UsersFixture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="332" selection-end="332" vertical-scroll-proportion="0.30232558" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/default.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="33" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.38291138" vertical-offset="223" max-vertical-offset="1080">
-          <folding>
-            <element signature="e#6#209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extensions/helper/Session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="2" selection-start="193" selection-end="193" vertical-scroll-proportion="0.3322785" vertical-offset="0" max-vertical-offset="632">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/bootstrap/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="52" selection-start="2156" selection-end="2156" vertical-scroll-proportion="0.7531645" vertical-offset="169" max-vertical-offset="825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="19" selection-start="954" selection-end="954" vertical-scroll-proportion="0.5253165" vertical-offset="358" max-vertical-offset="990">
-          <folding>
-            <element signature="e#30#57#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="17" column="28" selection-start="331" selection-end="331" vertical-scroll-proportion="0.403481" vertical-offset="0" max-vertical-offset="975" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
+    <entry file="file://$PROJECT_DIR$/tests/cases/controllers/CalendarsControllerTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="2" selection-start="656" selection-end="656" vertical-scroll-proportion="0.75949365" vertical-offset="0" max-vertical-offset="632">
-          <folding>
-            <element signature="e#35#56#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="19" column="2" selection-start="372" selection-end="372" vertical-scroll-proportion="0.45094937" vertical-offset="0" max-vertical-offset="632" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/sessions/add.html.php">
+    <entry file="file://$PROJECT_DIR$/views/calendars/index.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="23" selection-start="521" selection-end="521" vertical-scroll-proportion="0.6170886" vertical-offset="0" max-vertical-offset="632">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.023255814" vertical-offset="0" max-vertical-offset="645" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_8.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="870" column="9" selection-start="28311" selection-end="28311" vertical-scroll-proportion="0.7246835" vertical-offset="12592" max-vertical-offset="16530">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cases/models/UsersTest.php">
+    <entry file="file://$PROJECT_DIR$/extensions/command/CalendarCreate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="178" selection-end="178" vertical-scroll-proportion="0.3488372" vertical-offset="0" max-vertical-offset="645">
+        <state line="27" column="2" selection-start="477" selection-end="477" vertical-scroll-proportion="0.627907" vertical-offset="0" max-vertical-offset="645" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="281" column="7" selection-start="7430" selection-end="7430" vertical-scroll-proportion="0.43987343" vertical-offset="3937" max-vertical-offset="20025">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/bootstrap/connections.php">
+    <entry file="file://$PROJECT_DIR$/extensions/command/EventRemoveAll.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="32" selection-start="2880" selection-end="2880" vertical-scroll-proportion="0.58702534" vertical-offset="664" max-vertical-offset="1335">
+        <state line="16" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="0.37974682" vertical-offset="0" max-vertical-offset="632">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/cases/controllers/SessionsControllerTest.php">
+    <entry file="file://$PROJECT_DIR$/extensions/command/Test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="962" selection-end="962" vertical-scroll-proportion="0.33544305" vertical-offset="433" max-vertical-offset="1065">
-          <folding>
-            <element signature="e#47#74#0" expanded="true" />
-          </folding>
+        <state line="17" column="2" selection-start="230" selection-end="230" vertical-scroll-proportion="0.39534885" vertical-offset="0" max-vertical-offset="645">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SessionsController.php">
+    <entry file="file://$PROJECT_DIR$/extensions/command/EventAdd.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="450" selection-end="450" vertical-scroll-proportion="0.5116279" vertical-offset="0" max-vertical-offset="645">
+        <state line="21" column="32" selection-start="493" selection-end="493" vertical-scroll-proportion="0.4883721" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extensions/command/EventCreateList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.56962025" vertical-offset="0" max-vertical-offset="825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="36" selection-end="36" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extensions/utils/Dates.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="5" selection-start="731" selection-end="731" vertical-scroll-proportion="-20.625" vertical-offset="0" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extensions/helper/Date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/events/index.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="2" selection-start="157" selection-end="157" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/EventsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="30" selection-start="401" selection-end="401" vertical-scroll-proportion="0.47468355" vertical-offset="0" max-vertical-offset="1020">
           <folding>
-            <element signature="e#35#61#0" expanded="true" />
+            <element signature="e#35#57#0" expanded="true" />
           </folding>
         </state>
       </provider>

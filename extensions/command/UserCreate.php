@@ -22,7 +22,7 @@ class UserCreate extends \lithium\console\Command {
 		$user->created = time();
 		$user->save();
 
-		$this->out( "Success: Create user: " . $name );
+		$this->out( "Success: Created user: " . $name );
 
 	}
 }

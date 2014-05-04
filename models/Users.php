@@ -8,9 +8,7 @@ use lithium\security\Password;
 class Users extends \lithium\data\Model {
 
 	protected $_schema = array(
-		'id' => array(
-			'type' => 'id',
-		),
+		'id' => array('type' => 'id'),
 		'username' => array(
 			'type' => 'string',
 			'null' => false,
@@ -21,6 +19,7 @@ class Users extends \lithium\data\Model {
 		),
 		'created' => array(
 			'type' => 'integer',
+			'null' => false,
 		),
 	);
 

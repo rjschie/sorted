@@ -1,0 +1,19 @@
+
+
+HANDLING EVENTS IN VIEW
+---------------------------
+
+Put Event data into JSON object
+	- json object is days/months/years
+	- fill the objects with the events
+		corresponding to those
+	- limit to now() + 14 days
+
+
+
+
+Date Utilities
+---------------
+Is_Today()
+Is_Tomorrow()
+Between_Limits()
