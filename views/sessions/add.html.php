@@ -1,3 +1,4 @@
+
 <?php
 $this->form->config( array(
 	'field' => array(
@@ -5,30 +6,40 @@ $this->form->config( array(
 		'wrap'	=> 'class="form-group"',
 	),
 	'submit' => array(
-		'class'	=> 'btn btn-default',
+		'class'	=> 'btn btn-default form-control',
+	),
+	'error' => array(
+		'class' => 'text-error subtext italic text-left',
 	),
 ));
+
+$this->title('Login');
 ?>
 
+<div id="login-div" class="text-center grid-33 centered"> <?php // TODO - Remove ".panel" ?>
+	<h1 class="logo">SORTED</h1>
+	<p id="tagline" class="italic subtext centered">the simple organizer for your not-so-simple schedule</p>
 
-	<h2>Login</h2>
-	<br>
-<?php if( $loginFailed ): ?>
-	<div class="text-error">Login failed - please check your credentials</div>
-	<br>
-<?php endif; ?>
+	<?=$this->form->create( $user );?>
+	<?php if( $loginFailed ): ?>
+		<div class="error-panel italic subtext text-left">Login failed - please check your credentials</div>
+	<?php endif; ?>
+	<?=$this->form->field( 'username', array(
+		'label'=>'',
+		'required' => 'required',
+		'placeholder'=>'USERNAME',
+	));?>
+	<?=$this->form->field( 'password', array(
+		'type'=>'password',
+		'label' => '',
+		'required' => 'required',
+		'placeholder'=>'PASSWORD',
+	));?>
+	<div class="form-group">
+		<?=$this->form->submit( 'LOGIN' );?>
+	</div>
+	<?=$this->form->end();?>
 
-<?=$this->form->create( $user );?>
-<?=$this->form->field( 'username', array(
-	'label'=>'',
-	'placeholder'=>'Username'
-));?>
-<?=$this->form->field( 'password', array(
-	'type'=>'password',
-	'label' => '',
-	'placeholder'=>'Password'
-));?>
-<?=$this->form->submit( 'Log in' );?>
-<?=$this->form->end();?>
-
-<?//= \lithium\security\Password::hash('rschie'); ?>
+	<?php // TODO Change link to Forgot Pass ?>
+	<a id="forgot-pass" class="centered block simple" href="<?= $this->url('/forgotpass'); ?>">FORGOT MY PASSWORD</a></p>
+</div>

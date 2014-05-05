@@ -1,0 +1,67 @@
+body {
+	letter-spacing: 1px;
+}
+
+input {
+	letter-spacing: 2px;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*
+ * Generic
+ */
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.subtext {
+	font-size: .74em;
+}
+
+.text-error {
+	color: $error;
+}
+
+
+
+/*
+ * Link Defines
+ */
+
+a {
+	color: $orange;
+
+	&:hover {
+		color: $dark-orange;
+	}
+}
+
+a.simple {
+	text-decoration: none;
+}
+
+a.block {
+	display: block;
+}

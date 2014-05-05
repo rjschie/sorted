@@ -1,3 +1,4 @@
+
 .clear {
 	&:after {
 		content: ".";
@@ -7,53 +8,37 @@
 	}
 }
 
-.centered {
-	float: none;
-	margin: 0 auto;
-}
-
-
-
 .glyphicon {
 	font-size: 8pt;
 	margin-right: 5px;
 }
 
-.btn-default {
-	border-color: $main-bg;
-	color: $link;
+.centered {
+	float: none;
+	margin: 0 auto;
+}
 
-	&:hover, &:focus {
-		border-color: white;
-		background-color: $main-bg;
-		color: white;
+.btn {
+	width: 100%;
+//	padding: 5px;
+	line-height: 1.9em;
+	border: 1px solid black;
+}
+.btn-default {
+	background-color: $orange;
+	border-color: $orange;
+	border-radius: 2px;
+
+	&:hover {
+		background-color: $light-orange;
 	}
 }
 
-.bs-docs-nav {
-
-	background-color: $main-bg;
-
-	.navbar-brand {
-		color: white;
-
-		&:hover, &:focus {
-			color: $link+#555;
-		}
-	}
-
-	.nav a {
-		color: white;
-
-		&:hover, &:focus {
-			background-color: inherit;
-			color: $link+#555;
-		}
-	}
-
-	.navbar-toggle {
-		.icon-bar {
-			background-color: black;
-		}
-	}
+.error-panel {
+	padding: 4px 8px;
+	background-color: $error + #777;
+	border-radius: 2px;
+	border: 1px solid $error + #222;
+	color: black;
+	margin: 2% auto;
 }

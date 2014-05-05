@@ -1,19 +1,25 @@
-$main-bg: #876aba;
-$link: $main-bg - #222;
 
+@import "fonts";
 @import "grid";
+@import "color-defines";
+@import "text-defines";
+@import "forms";
 @import "base";
 
 html {
 }
 
 body {
+	font-family: "OpenSans";
 }
 
-a {
-	color: $link;
+.main-content {
+	width: 100%;
 
-	&:hover, &:focus {
-		color: $link + #444;
+	@media (min-width: 1000px) {
+		width: 1000px;
 	}
+//	@media (min-width: 850px) {
+//		width:
+//	}
 }
