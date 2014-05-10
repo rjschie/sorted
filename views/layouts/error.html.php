@@ -21,8 +21,8 @@ $path = Libraries::get(true, 'path');
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sorted &gt; <?php echo $this->title(); ?></title>
 	<?php echo $this->html->style( array(
-		'/bower_components/bootstrap/dist/css/bootstrap.min.css',
-		'/bower_components/normalize-css/normalize.css',
+		'li3/bootstrap.min.css',
+		'li3/normalize.css',
 		'li3/lithified.css',
 		'min/app.css',
 	)); ?>
@@ -51,8 +51,8 @@ $path = Libraries::get(true, 'path');
 </main>
 
 <?php echo $this->html->script(array(
-	'/bower_components/jquery/dist/jquery.min.js',
-	'/bower_components/bootstrap/dist/js/bootstrap.min.js'
+	'min/jquery.min.js',
+	'li3/bootstrap.min.js'
 )); ?>
 </body>
 </html>

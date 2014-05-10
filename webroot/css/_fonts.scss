@@ -1,25 +1,6 @@
+@import "font-awesome/font-awesome";
 
-@font-face {
-	font-family: 'OpenSans';
-	src: url("../../other/open_sans/OpenSans-Regular.ttf");
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'OpenSans';
-	src: url("../../other/open_sans/OpenSans-Light.ttf");
-	font-weight: lighter;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'OpenSans';
-	src: url("../../other/open_sans/OpenSans-LightItalic.ttf");
-	font-weight: normal;
-	font-style: italic;
-}
-@font-face {
-	font-family: 'OpenSans';
-	src: url("../../other/open_sans/OpenSans-Semibold.ttf");
-	font-weight: bold;
-	font-style: normal;
-}
+
+$default-fontstack: "brandon-grotesque", "Droid Sans", Helvetica, Arial, sans-serif;
+$input-fontstack: Arial, sans-serif;
+

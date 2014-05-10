@@ -1,7 +1,18 @@
-$orange: #f77b4a;
+
+/**
+ * GENERICS
+ */
+$orange: #ff8052;
 $light-orange: $orange + #181818;
 $dark-orange: $orange - #333;
-$dark-grey: #878787;
-$light-grey: #ccc;
+$offblack: #333;
+$dark-grey: #565656;
+$med-grey: #aaa;
+$light-grey: #e9e9e9;
 $white: #fff;
+
+
+/**
+ * SPECIFICS
+ */
 $error: #ff4650;

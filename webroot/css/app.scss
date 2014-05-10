@@ -1,25 +1,32 @@
 
+/**
+ * IMPORTS
+ */
+@import "testing"; // TODO PRODUCTION: remove
 @import "fonts";
-@import "grid";
+@import "pure-css";
+@import "pure-extend";
 @import "color-defines";
 @import "text-defines";
 @import "forms";
+@import "btns";
 @import "base";
+@import "masthead";
 
-html {
-}
 
+
+/**
+ * GLOBALS
+ */
 body {
-	font-family: "OpenSans";
+	background-color: $light-grey;
 }
 
-.main-content {
-	width: 100%;
 
-	@media (min-width: 1000px) {
-		width: 1000px;
-	}
-//	@media (min-width: 850px) {
-//		width:
-//	}
+
+
+
+
+.testBorder {
+	@include border(blue);
 }

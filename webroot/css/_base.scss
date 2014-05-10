@@ -1,16 +1,16 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
 
 .clear {
 	&:after {
 		content: ".";
 		display: none;
-		clear: left;
+		clear: both;
 		visibility: hidden;
 	}
-}
-
-.glyphicon {
-	font-size: 8pt;
-	margin-right: 5px;
 }
 
 .centered {
@@ -18,21 +18,6 @@
 	margin: 0 auto;
 }
 
-.btn {
-	width: 100%;
-//	padding: 5px;
-	line-height: 1.9em;
-	border: 1px solid black;
-}
-.btn-default {
-	background-color: $orange;
-	border-color: $orange;
-	border-radius: 2px;
-
-	&:hover {
-		background-color: $light-orange;
-	}
-}
 
 .error-panel {
 	padding: 4px 8px;
@@ -42,3 +27,5 @@
 	color: black;
 	margin: 2% auto;
 }
+
+

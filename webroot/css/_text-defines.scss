@@ -1,19 +1,28 @@
-body {
+
+/**
+ * GLOBALS
+ */
+html, button, input, select, textarea,
+.pure-g [class*="pure-u"]
+{
+	font-family: $default-fontstack;
+	font-size: 1em;
+	font-weight: 300;
 	letter-spacing: 1px;
 }
 
-input {
+input[type="text"],input[type="password"] {
 	letter-spacing: 2px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, p {
 	margin: 0;
 	padding: 0;
 }
 
 
 /*
- * Generic
+ * GENERIC
  */
 
 .italic {
@@ -47,14 +56,15 @@ h1, h2, h3 {
 
 
 /*
- * Link Defines
+ * LINK DEFINES
  */
 
 a {
-	color: $orange;
+	color: inherit;
 
+	// TODO change this
 	&:hover {
-		color: $dark-orange;
+		color: #ccc;
 	}
 }
 

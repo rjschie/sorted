@@ -1,75 +1,106 @@
-@import "color-defines";
 
+
+/**
+ * IMPORTS
+ */
+@import "testing"; // TODO PRODUCTION: remove
+@import "fonts";
+@import "pure-css";
+@import "pure-extend";
+@import "color-defines";
+@import "text-defines";
+@import "forms";
+@import "btns";
+@import "base";
+
+// TODO HAVE BUTTON ONLY ORANGE WHEN FORM IS VALID - THROUGH JS?
+// TODO HAVE PLACEHOLDER TEXT ORANGE WHEN NO VALUES - THROUGH JS!
+
+/**
+ * GLOBALS
+ */
 body {
-	background: url('/img/login.jpg');
+
+	background: $light-grey url('/img/login.jpg');
 	background-repeat: no-repeat;
 	background-position: 50% 20%;
+
+	@media (max-width: $break-sm) {
+		background: $light-grey;
+	}
 }
 
+/**
+ * LOGIN DIV
+ */
 #login-div {
 
-	margin-top: 15%;
+	margin-top: 6em;
 	background: $white;
-	padding: 3%;
+	padding: 1.8em;
 	border-radius: 3px;
-	font-weight: lighter;
+	width: 22em;
 
 	h1 {
-		margin: 2% 0;
+		margin: 1em 0 .3em 0;
 		width: 100%;
-		text-indent: -9999%;
+		text-indent: -9999px;
+		color: rgba(0,0,0,0);
 		background: url('/img/logo.jpg') no-repeat center;
 	}
 
 	#tagline {
-		width: 70%;
+		font-size: 0.8em;
+		width: 15em;
+	}
+
+	form {
+		margin-top: 2.6em;
+
+		.btn-default {
+			color: $white;
+		}
+
+		input[type="text"]:valid {
+			font-weight: 300;
+			font-size: 1.4em;
+			line-height: 0;
+			padding: 0px 10px;
+			height: 1.95em;
+			margin-bottom: 6px;
+			letter-spacing: .1em;
+		}
+		input[type="password"]:valid {
+			font-weight: 700;
+			font-size: 1.4em;
+			line-height: 0;
+			padding: 0px 10px;
+			height: 1.95em;
+			margin-bottom: 6px;
+			letter-spacing: .1em;
+		}
+		input[type="submit"] {
+			margin-top: 1.1em;
+			background-color: hsla(hue($light-orange), 70%, lightness($light-orange), .7);
+		}
+
+		input:valid + input:valid ~ input[type="submit"] {
+			background-color: $orange;
+		}
 	}
 
 	#forgot-pass {
 		font-size: 0.7em;
 		color: $dark-grey;
-		margin-top: 7%;
+		margin: 1.3em 0;
 
 		&:hover {
 			color: $orange;
 		}
 	}
 
-	form {
-		margin-top: 20%;
-
-		.btn-default {
-			color: $white;
-		}
-
-		input[type="password"]:valid {
-			font-weight: bold;
-			font-size: 1.5em;
-			padding: 0px 10px;
-			height: 1.85em;
-			margin-bottom: 5px;
-			letter-spacing: 3px;
-		}
-		input[type="text"]:valid {
-			font-weight: bold;
-		}
-
-		input[type="submit"] {
-			margin-top: 6%;
-		}
+	@media (max-width: $break-sm) {
+		margin-top: 0;
 	}
-
-
-
-	@media (max-width: 850px) {
-		width: 50%;
-		padding: 4%;
-	}
-
-	@media (max-width: 550px) {
-		width: 75%;
-		padding: 5%;
-	}
-
 
 }

@@ -3,3 +3,6 @@ libraries/*
 resources/tmp/*
 .*.sw[op]
 /_design
+.sass-cache
+*.scssc
+*.bowerrc
