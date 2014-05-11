@@ -2,344 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17c3bdad-5d62-4381-9cb7-551d10d19d4c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/other/fontawesome/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/other/fontawesome/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/other/fontawesome/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/other/fontawesome/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/css/_btns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/css/_masthead.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/css/_pure-css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/css/_pure-extend.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/css/_testing.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/js/li3/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/other/fontawesome/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/js/min/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/js/min/jquery.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webroot/js/min/modernizr.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/dist/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/grunt/bs-raw-files-generator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/grunt/shrinkwrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/js/affix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/js/alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/js/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/js/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/js/collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/js/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/js/modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/js/popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/js/scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/js/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/js/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/js/transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/badges.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/close.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/glyphicons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/input-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/jumbotron.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/list-group.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/media.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/modals.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/navs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/normalize.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/panels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/print.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/responsive-utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/tables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/theme.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/less/wells.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/test-infra/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/test-infra/npm-shrinkwrap.canonical.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/test-infra/requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/test-infra/s3_cache.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/test-infra/sauce_browsers.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/bootstrap/test-infra/uncached-npm-install.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/MIT-LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/dist/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/dist/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/dist/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/ajax/jsonp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/ajax/load.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/ajax/parseJSON.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/ajax/parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/ajax/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/ajax/var/nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/ajax/var/rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/ajax/xhr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/attributes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/attributes/attr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/attributes/classes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/attributes/prop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/attributes/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/attributes/val.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/callbacks.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/core/access.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/core/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/core/parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/core/ready.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/css/addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/css/curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/css/defaultDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/css/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/css/swap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/css/var/cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/css/var/getStyles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/css/var/isHidden.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/css/var/rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/data/Data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/data/accepts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/data/var/data_priv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/data/var/data_user.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/deprecated.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/effects.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/effects/Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/effects/animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/event.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/event/alias.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/event/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/exports/amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/exports/global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/intro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/manipulation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/manipulation/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/offset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/outro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/queue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/queue/delay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/selector-native.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/serialize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/sizzle/dist/sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/sizzle/dist/sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/sizzle/dist/sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/traversing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/traversing/findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/var/arr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/var/class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/var/concat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/var/hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/var/indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/var/pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/var/push.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/var/rnotwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/var/slice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/var/strundefined.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/var/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/var/toString.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/jquery/src/wrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/normalize-css/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/normalize-css/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/normalize-css/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/normalize-css/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/normalize-css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/a-download.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/audio-audiodata-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/audio-webaudio-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/battery-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/battery-level.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/blob-constructor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/canvas-todataurl-type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/component.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/contenteditable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/contentsecuritypolicy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/contextmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/cookies.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/cors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-backgroundposition-shorthand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-backgroundposition-xy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-backgroundrepeat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-backgroundsizecover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-boxsizing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-calc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-cubicbezierrange.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-displayrunin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-displaytable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-filters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-hyphens.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-lastchild.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-mask.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-mediaqueries.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-objectfit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-overflow-scrolling.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-pointerevents.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-positionsticky.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-regions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-remunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-resize.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-scrollbars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-subpixelfont.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-supports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-userselect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-vhunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-vmaxunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-vminunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/css-vwunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/custom-protocol-handler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/dart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/dataview-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/dom-classlist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/dom-createElement-attrs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/dom-dataset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/dom-microdata.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/elem-datalist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/elem-details.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/elem-output.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/elem-progress-meter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/elem-ruby.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/elem-time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/elem-track.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/emoji.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/es5-strictmode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/event-deviceorientation-motion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/exif-orientation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/file-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/file-filesystem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/forms-fileinput.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/forms-formattribute.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/forms-inputnumber-l10n.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/forms-placeholder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/forms-speechinput.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/forms-validation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/fullscreen-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/gamepad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/getusermedia.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/ie8compat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/iframe-sandbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/iframe-seamless.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/iframe-srcdoc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/img-apng.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/img-webp.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/lists-reversed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/mathml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/modernizr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/network-connection.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/network-eventsource.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/network-xhr2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/notification.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/performance.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/pointerlock-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/quota-management-api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/requestanimationframe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/script-async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/script-defer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/style-scoped.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/svg-filters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/unicode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/url-data-uri.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/userdata.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/vibration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/web-intents.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/webgl-extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/websockets-binary.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/window-framed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/workers-blobworkers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/workers-dataworkers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/bower_components/sprockets-modernizr/workers-sharedworkers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/css/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/other/open_sans/OpenSans-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/other/open_sans/OpenSans-BoldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/other/open_sans/OpenSans-ExtraBold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/other/open_sans/OpenSans-ExtraBoldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/other/open_sans/OpenSans-Italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/other/open_sans/OpenSans-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/other/open_sans/OpenSans-LightItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/other/open_sans/OpenSans-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/other/open_sans/OpenSans-Semibold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webroot/other/open_sans/OpenSans-SemiboldItalic.ttf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/_base.scssc" afterPath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/_base.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/_color-defines.scssc" afterPath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/_color-defines.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/_forms.scssc" afterPath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/_forms.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/_text-defines.scssc" afterPath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/_text-defines.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/app.scssc" afterPath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/app.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/login.scssc" afterPath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/login.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/_base.scss" afterPath="$PROJECT_DIR$/webroot/css/_base.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/webroot/css/_base.scss" afterPath="$PROJECT_DIR$/webroot/css/_misc.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/img/logo.jpg" afterPath="$PROJECT_DIR$/webroot/img/logo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/CalendarsController.php" afterPath="$PROJECT_DIR$/controllers/CalendarsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Sorted.iml" afterPath="$PROJECT_DIR$/.idea/Sorted.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/_color-defines.scss" afterPath="$PROJECT_DIR$/webroot/css/_color-defines.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/_fonts.scss" afterPath="$PROJECT_DIR$/webroot/css/_fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/_fonts.scssc" afterPath="$PROJECT_DIR$/webroot/css/.sass-cache/d108c179d5a56849751558b721a29f00a515f854/_fonts.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/_forms.scss" afterPath="$PROJECT_DIR$/webroot/css/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/_masthead.scss" afterPath="$PROJECT_DIR$/webroot/css/_masthead.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/_text-defines.scss" afterPath="$PROJECT_DIR$/webroot/css/_text-defines.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/sessions/add.html.php" afterPath="$PROJECT_DIR$/views/sessions/add.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/min/app-ck.js" afterPath="$PROJECT_DIR$/webroot/js/min/app-ck.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/font-awesome/_variables.scss" afterPath="$PROJECT_DIR$/webroot/css/font-awesome/_variables.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/min/app.css" afterPath="$PROJECT_DIR$/webroot/css/min/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/app.js" afterPath="$PROJECT_DIR$/webroot/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/app.scss" afterPath="$PROJECT_DIR$/webroot/css/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/li3/bootstrap.min.css" afterPath="$PROJECT_DIR$/webroot/css/li3/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/default.html.php" afterPath="$PROJECT_DIR$/views/layouts/default.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/error.html.php" afterPath="$PROJECT_DIR$/views/layouts/error.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home/index.html.php" afterPath="$PROJECT_DIR$/views/home/index.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/min/login.css" afterPath="$PROJECT_DIR$/webroot/css/min/login.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/login.scss" afterPath="$PROJECT_DIR$/webroot/css/login.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.php" afterPath="$PROJECT_DIR$/config/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="li3_framework.iws" />
@@ -380,30 +57,34 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/webroot/css/_testing.scss" />
-        <option value="$PROJECT_DIR$/webroot/css/_text-defines.scss" />
-        <option value="$PROJECT_DIR$/webroot/css/_color-defines.scss" />
-        <option value="$PROJECT_DIR$/webroot/css/_btns.scss" />
-        <option value="$PROJECT_DIR$/webroot/css/_pure-css.scss" />
-        <option value="$PROJECT_DIR$/webroot/css/_pure-extend.scss" />
         <option value="$PROJECT_DIR$/webroot/js/collapse.js" />
-        <option value="$PROJECT_DIR$/webroot/css/_masthead.scss" />
-        <option value="$PROJECT_DIR$/webroot/css/app.scss" />
-        <option value="$PROJECT_DIR$/webroot/css/login.scss" />
         <option value="$PROJECT_DIR$/webroot/js/app.js" />
         <option value="$PROJECT_DIR$/webroot/css/_forms.scss" />
         <option value="$PROJECT_DIR$/views/sessions/add.html.php" />
         <option value="$PROJECT_DIR$/webroot/css/_fonts.scss" />
-        <option value="$PROJECT_DIR$/views/layouts/default.html.php" />
         <option value="$PROJECT_DIR$/views/layouts/error.html.php" />
+        <option value="$PROJECT_DIR$/webroot/css/_color-defines.scss" />
+        <option value="$PROJECT_DIR$/webroot/css/_text-defines.scss" />
+        <option value="$PROJECT_DIR$/webroot/css/font-awesome/_variables.scss" />
+        <option value="$PROJECT_DIR$/webroot/css/login.scss" />
+        <option value="$PROJECT_DIR$/views/layouts/default.html.php" />
+        <option value="$PROJECT_DIR$/webroot/css/app.scss" />
+        <option value="$PROJECT_DIR$/webroot/css/_masthead.scss" />
+        <option value="$PROJECT_DIR$/controllers/SessionsController.php" />
+        <option value="$PROJECT_DIR$/controllers/CalendarsController.php" />
+        <option value="$PROJECT_DIR$/views/home/index.html.php" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/../../../data/li3_libs/lithium" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="575" />
+    <option name="x" value="395" />
     <option name="y" value="22" />
-    <option name="width" value="865" />
+    <option name="width" value="1045" />
     <option name="height" value="823" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -438,7 +119,7 @@
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
-      <showMembers />
+      <showMembers Scope="false" />
       <showModules />
       <showLibraryContents />
       <hideEmptyPackages />
@@ -454,6 +135,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Sorted" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.jetbrains.php.config.PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -529,10 +214,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sessions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -544,177 +225,90 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="events" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_errors" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
-        <subPane subId="Default">
+        <subPane subId="Default" />
+        <subPane subId="Test">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Sorted">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Sorted">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="config">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
         <subPane subId="Problems" />
+        <subPane subId="Frontend">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Sorted">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="webroot">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Sorted">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="webroot">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="css">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Sorted">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Tests" />
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Sorted">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Sorted">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="controllers">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Sorted">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="config">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
+        <subPane subId="Changed Files" />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="editing.templates" />
+    <property name="TODO_SCOPE" value="Project Files" />
+    <property name="options.lastSelected" value="Configurable.PHP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../data/li3_libs/lithium" />
     <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -800,16 +394,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="575" y="22" width="865" height="823" extended-state="0" />
+    <frame x="395" y="22" width="1045" height="823" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40709218" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24936387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34920636" sideWeight="0.6700143" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2852853" sideWeight="0.6700143" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -836,13 +430,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webroot/css/_color-defines.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="233" selection-end="233" vertical-scroll-proportion="0.39050537" vertical-offset="0" max-vertical-offset="653">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webroot/css/_btns.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="1" selection-start="296" selection-end="296" vertical-scroll-proportion="0.5283308" vertical-offset="0" max-vertical-offset="653">
@@ -850,104 +437,131 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/js/min/app-ck.js">
+    <entry file="file://$PROJECT_DIR$/webroot/css/font-awesome/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="664">
+        <state line="7" column="36" selection-start="378" selection-end="378" vertical-scroll-proportion="0.1640625" vertical-offset="0" max-vertical-offset="5805">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/_base.scss">
+    <entry file="file://$PROJECT_DIR$/webroot/css/font-awesome/_icons.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="200" selection-end="200" vertical-scroll-proportion="0.29862174" vertical-offset="0" max-vertical-offset="653">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6270">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/js/app.js">
+    <entry file="file://$PROJECT_DIR$/webroot/css/font-awesome/font-awesome.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="293" selection-end="293" vertical-scroll-proportion="0.2658789" vertical-offset="0" max-vertical-offset="677">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/_masthead.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="35" selection-start="941" selection-end="941" vertical-scroll-proportion="1.194487" vertical-offset="0" max-vertical-offset="2190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/_forms.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="224" selection-end="224" vertical-scroll-proportion="0.29862174" vertical-offset="0" max-vertical-offset="653">
+        <state line="17" column="0" selection-start="405" selection-end="405" vertical-scroll-proportion="0.3984375" vertical-offset="0" max-vertical-offset="640">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/css/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.13782541" vertical-offset="0" max-vertical-offset="653">
+        <state line="6" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.140625" vertical-offset="0" max-vertical-offset="640">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/sessions/add.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="32" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.9140625" vertical-offset="0" max-vertical-offset="765">
+        <state line="17" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.3984375" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/css/_misc.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.712098" vertical-offset="0" max-vertical-offset="653">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/css/login.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="79" selection-end="79" vertical-scroll-proportion="0.13782541" vertical-offset="0" max-vertical-offset="1665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/_pure-css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="626" column="2" selection-start="11894" selection-end="11894" vertical-scroll-proportion="0.5546875" vertical-offset="9035" max-vertical-offset="25050">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/_pure-extend.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="13545">
+        <state line="68" column="29" selection-start="970" selection-end="970" vertical-scroll-proportion="0.31240427" vertical-offset="816" max-vertical-offset="1950">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/default.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="14" selection-start="1539" selection-end="1539" vertical-scroll-proportion="0.9140625" vertical-offset="0" max-vertical-offset="975">
+        <state line="46" column="9" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.515625" vertical-offset="360" max-vertical-offset="1050">
+          <folding>
+            <element signature="e#6#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/sass/lib/stubs/sass_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-17.046875" vertical-offset="10910" max-vertical-offset="11550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../data/li3_libs/lithium/security/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="2" selection-start="1974" selection-end="1974" vertical-scroll-proportion="0.27565083" vertical-offset="390" max-vertical-offset="3420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SessionsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="43" selection-start="423" selection-end="423" vertical-scroll-proportion="0.45941806" vertical-offset="0" max-vertical-offset="653">
+          <folding>
+            <element signature="e#35#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/CalendarsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="2" selection-start="227" selection-end="227" vertical-scroll-proportion="0.32159266" vertical-offset="0" max-vertical-offset="653">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home/index.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="628">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/css/_masthead.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="41" selection-start="300" selection-end="300" vertical-scroll-proportion="0.34456354" vertical-offset="0" max-vertical-offset="2100">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/css/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="12" selection-start="187" selection-end="187" vertical-scroll-proportion="0.22970903" vertical-offset="0" max-vertical-offset="653">
+        <state line="48" column="13" selection-start="600" selection-end="600" vertical-scroll-proportion="0.8162328" vertical-offset="187" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/_errors/development.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="673" selection-end="673" vertical-scroll-proportion="0.421875" vertical-offset="0" max-vertical-offset="1635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layouts/error.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="29" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.6015625" vertical-offset="230" max-vertical-offset="870">
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>Test</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

@@ -3,7 +3,6 @@
 namespace app\controllers;
 
 use app\models\Calendars;
-use lithium\action\DispatchException;
 
 class CalendarsController extends \lithium\action\Controller {
 

@@ -1,7 +1,5 @@
 
-/**
- * GLOBALS
- */
+/* Global Text Defines */
 html, button, input, select, textarea,
 .pure-g [class*="pure-u"]
 {
@@ -20,10 +18,7 @@ h1, h2, h3, p {
 	padding: 0;
 }
 
-
-/*
- * GENERIC
- */
+/* Generic Text Defines */
 
 .italic {
 	font-style: italic;
@@ -53,11 +48,7 @@ h1, h2, h3, p {
 	color: $error;
 }
 
-
-
-/*
- * LINK DEFINES
- */
+/* Link Defines */
 
 a {
 	color: inherit;

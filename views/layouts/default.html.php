@@ -33,14 +33,14 @@
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#masthead-nav-collapse">
 			<i class="fa fa-bars"></i>
 		</button>
-		<a id="brand" href="#">SORTED</a>
+		<h1 id="brand">SORTED</h1>
 	</div>
 
 	<div class="pure-u-1 pure-u-sm-1-3 "  role="navigation">
 		<nav id="masthead-nav-collapse" class="collapse navbar-collapse pure-menu pure-menu-open pure-menu-horizontal">
 			<ul>
 				<li><a href="#" class="">SETTINGS</a</li>
-				<li><a href="#" class="">LOGOUT</a></li>
+				<li><a href="<?= $this->url('/logout'); ?>" class="">LOGOUT</a></li>
 			</ul>
 		</nav>
 	</div>

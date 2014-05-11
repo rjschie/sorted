@@ -1,20 +1,42 @@
-
-
-/**
+/* ===================================
  * IMPORTS
- */
+ * =================================== */
 @import "testing"; // TODO PRODUCTION: remove
+/**
+ * FONT STUFF
+ */
 @import "fonts";
+/**
+ * PURE CSS
+ */
 @import "pure-css";
 @import "pure-extend";
+/**
+ * DEFINES
+ */
 @import "color-defines";
 @import "text-defines";
+/**
+ * FORMS
+ */
 @import "forms";
+/**
+ * BUTTONS
+ */
 @import "btns";
-@import "base";
+/**
+ * MISC
+ */
+@import "misc";
 
-// TODO HAVE BUTTON ONLY ORANGE WHEN FORM IS VALID - THROUGH JS?
+
+
 // TODO HAVE PLACEHOLDER TEXT ORANGE WHEN NO VALUES - THROUGH JS!
+
+
+/* ===================================
+ * LOGIN CSS
+ * =================================== */
 
 /**
  * GLOBALS
@@ -31,7 +53,7 @@ body {
 }
 
 /**
- * LOGIN DIV
+ * LOGIN
  */
 #login-div {
 
@@ -47,6 +69,7 @@ body {
 		text-indent: -9999px;
 		color: rgba(0,0,0,0);
 		background: url('/img/logo.jpg') no-repeat center;
+		background-size: 80%;
 	}
 
 	#tagline {
@@ -56,10 +79,6 @@ body {
 
 	form {
 		margin-top: 2.6em;
-
-		.btn-default {
-			color: $white;
-		}
 
 		input[type="text"]:valid {
 			font-weight: 300;

@@ -1,19 +1,40 @@
-
-/**
+/* ===================================
  * IMPORTS
- */
+ * =================================== */
 @import "testing"; // TODO PRODUCTION: remove
+/**
+ * FONT STUFF
+ */
 @import "fonts";
+/**
+ * PURE CSS
+ */
 @import "pure-css";
 @import "pure-extend";
+/**
+ * DEFINES
+ */
 @import "color-defines";
 @import "text-defines";
+/**
+ * FORMS
+ */
 @import "forms";
+/**
+ * BUTTONS
+ */
 @import "btns";
-@import "base";
-@import "masthead";
+/**
+ * MISC
+ */
+@import "misc";
 
 
+
+
+/* ===================================
+ * APP CSS
+ * =================================== */
 
 /**
  * GLOBALS
@@ -22,11 +43,8 @@ body {
 	background-color: $light-grey;
 }
 
+/**
+ * MASTHEAD
+ */
+@import "masthead";
 
-
-
-
-
-.testBorder {
-	@include border(blue);
-}
