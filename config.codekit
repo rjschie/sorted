@@ -170,11 +170,11 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/extensions\/command\/Test.php": {
+	"\/extensions\/command\/test.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/extensions\/command\/Test.php",
+		"inputAbbreviatedPath": "\/extensions\/command\/test.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -322,6 +322,14 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/views\/events\/day.html.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/views\/events\/day.html.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/views\/events\/index.html.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -370,6 +378,14 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/webroot\/_frontwork\/day_view.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/_frontwork\/day_view.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/webroot\/css\/_btns.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -394,6 +410,21 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/webroot\/css\/_color-defines.scss",
 		"outputAbbreviatedPath": "\/webroot\/css\/min\/_color-defines.css",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/webroot\/css\/_day.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/css\/_day.scss",
+		"outputAbbreviatedPath": "\/webroot\/css\/min\/_day.css",
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
@@ -808,6 +839,14 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/webroot\/css\/min\/day.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/css\/min\/day.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/webroot\/css\/min\/login.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -838,21 +877,21 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5473,
+		"initialSize": 9134,
 		"inputAbbreviatedPath": "\/webroot\/img\/logo.jpg",
 		"outputAbbreviatedPath": "\/webroot\/img\/logo.jpg",
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/webroot\/img\/logo2.jpg": {
+	"\/webroot\/img\/logo_old.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 9134,
-		"inputAbbreviatedPath": "\/webroot\/img\/logo2.jpg",
-		"outputAbbreviatedPath": "\/webroot\/img\/logo2.jpg",
+		"initialSize": 5473,
+		"inputAbbreviatedPath": "\/webroot\/img\/logo_old.jpg",
+		"outputAbbreviatedPath": "\/webroot\/img\/logo_old.jpg",
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/webroot\/index.php": {
 		"fileType": 8192,
@@ -1037,7 +1076,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/as.sorted.site\/",
+	"externalServerAddress": "http:\/\/as.sorted\/",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathRelativePath": "",

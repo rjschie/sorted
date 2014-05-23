@@ -4487,3 +4487,11 @@ body {
     display: none;
   }
 }
+
+#top-left {
+  border: 1px solid red;
+}
+
+#top-right {
+  border: 1px solid red;
+}

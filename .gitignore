@@ -1,8 +1,8 @@
-.DS_Store
+/.codekit-cache.DS_Store
+/_design
 libraries/*
 resources/tmp/*
 .*.sw[op]
-/_design
 .sass-cache
 *.scssc
 *.bowerrc

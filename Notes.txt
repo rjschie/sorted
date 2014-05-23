@@ -1,19 +1,50 @@
-
-
-HANDLING EVENTS IN VIEW
----------------------------
-
-Put Event data into JSON object
-	- json object is days/months/years
-	- fill the objects with the events
-		corresponding to those
-	- limit to now() + 14 days
-
-
-
-
-Date Utilities
----------------
-Is_Today()
-Is_Tomorrow()
-Between_Limits()
+container
+	row#site-nav
+		nav
+	row#events
+		row#date-select
+			ul
+				li#day
+				li#week
+				li#month
+		row#day-03
+			div.date
+			div.list
+				div#events
+					row#01
+						div.time
+						div.title
+					row#02
+						div.time
+						div.title
+					row#03
+						div.time
+						div.title
+				div#tasks
+					row#01
+						div.check
+						div.title
+					row#02
+						div.check
+						div.title
+					row#new-task
+						div.icon
+						div.text
+		row#day-04
+			div.date
+			div.list
+				div#events
+					row#01
+						div.time
+						div.title
+					row#02
+						div.time
+						div.title
+					row#03
+						div.time
+						div.title
+				div#tasks
+					row#new-task
+						div.icon
+						div.text
+	row#tasks

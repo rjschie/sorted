@@ -24,6 +24,21 @@ class EventsController extends \lithium\action\Controller {
 		return compact('events');
 	}
 
+
+	public function day() {
+		$events = Events::all(array(
+			'conditions' => array(
+				'time' => array(
+					'>=' => (Dates::get_today()),
+					'<' => (Dates::get_n_day(2)),
+				),
+			),
+			'order' => 'time',
+		));
+
+		return compact('events');
+	}
+
 	public function view() {
 		$event = Events::first($this->request->id);
 		return compact('event');
