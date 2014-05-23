@@ -1,0 +1,92 @@
+
+@import "settings";
+@import "foundation";
+@import "../../css/font-awesome/font-awesome";
+
+
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+.off-canvas-wrap,.inner-wrap{
+	height:100%;
+}
+
+.off-canvas-list a {
+	transition: none !important;
+	&:hover {
+		background-color: #ff895b !important;
+		color: white;
+	}
+}
+
+
+
+
+$as-top-bar-height: rem-calc(45);
+
+.as-top-bar {
+	@include grid-row();
+	height: $as-top-bar-height;
+	border: 1px solid blue;
+}
+
+#brand-logo {
+	text-indent: -9999px;
+	background: url('/img/logo.jpg') no-repeat center;
+	background-size: rem-calc(140);
+	padding: 0;
+	margin: 0;
+	height: $as-top-bar-height;
+	font-size: 1.7rem;
+	letter-spacing: 8px;
+	line-height: $as-top-bar-height;
+	font-weight: 300;
+}
+
+.as-menu-toggle {
+	border: 1px solid red;
+	display: block;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.2em;
+	color: #555;
+	line-height: $as-top-bar-height;
+
+	&:hover {
+		color: black;
+	}
+}
+
+.as-input-nostyle {
+	border: none !important;
+	background: none !important;
+	box-shadow: none !important;
+	font-size: 1em !important;
+	font-weight: 300 !important;
+	position: relative;
+	top: rem-calc(3);
+	left: rem-calc(5);
+	margin: 0 !important;
+
+	&:focus, &:active {
+		background: #eee !important;
+		border-radius: 2px;
+		color: black;
+	}
+}
+
+.as-prefix-nostyle {
+	@include prefix-postfix-base();
+	background: none;
+	border: none;
+	outline: none;
+}
+
+.as-fa-adj {
+	position: relative;
+	top: rem-calc(5);
+}
