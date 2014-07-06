@@ -29,7 +29,13 @@ $as-top-bar-height: rem-calc(45);
 .as-top-bar {
 	@include grid-row();
 	height: $as-top-bar-height;
-	border: 1px solid blue;
+
+	&.collapse {
+		> .column, > .columns {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
 }
 
 #brand-logo {
@@ -38,6 +44,7 @@ $as-top-bar-height: rem-calc(45);
 	background-size: rem-calc(140);
 	padding: 0;
 	margin: 0;
+	margin-right: -16.6666666666%;
 	height: $as-top-bar-height;
 	font-size: 1.7rem;
 	letter-spacing: 8px;
@@ -46,7 +53,6 @@ $as-top-bar-height: rem-calc(45);
 }
 
 .as-menu-toggle {
-	border: 1px solid red;
 	display: block;
 	padding: 0;
 	margin: 0;

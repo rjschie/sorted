@@ -6604,13 +6604,15 @@ body, html {
   margin-bottom: 0;
   max-width: 62.5rem;
   *zoom: 1;
-  height: 2.8125rem;
-  border: 1px solid blue; }
+  height: 2.8125rem; }
   .as-top-bar:before, .as-top-bar:after {
     content: " ";
     display: table; }
   .as-top-bar:after {
     clear: both; }
+  .as-top-bar.collapse > .column, .as-top-bar.collapse > .columns {
+    padding-left: 0;
+    padding-right: 0; }
 
 #brand-logo {
   text-indent: -9999px;
@@ -6618,6 +6620,7 @@ body, html {
   background-size: 8.75rem;
   padding: 0;
   margin: 0;
+  margin-right: -16.6666666666%;
   height: 2.8125rem;
   font-size: 1.7rem;
   letter-spacing: 8px;
@@ -6625,7 +6628,6 @@ body, html {
   font-weight: 300; }
 
 .as-menu-toggle {
-  border: 1px solid red;
   display: block;
   padding: 0;
   margin: 0;

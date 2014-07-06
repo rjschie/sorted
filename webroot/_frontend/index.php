@@ -35,11 +35,11 @@
 					</div>
 				</div>
 
-				<div class="as-top-bar show-for-small-only">
-					<div class="small-10 small-offset-1 columns text-center">
+				<div class="as-top-bar collapse show-for-small-only">
+					<div class="small-10 columns text-center">
 						<h1 id="brand-logo">SORTED</h1>
 					</div>
-					<div class="small-1 columns">
+					<div class="small-2 columns">
 						<a href="#" class="right-off-canvas-toggle as-menu-toggle"><i class="fa fa-bars"></i></a>
 					</div>
 				</div>
@@ -67,6 +67,7 @@
 	<!-- SCRIPTS -->
 	<script type="text/javascript" src="//use.typekit.net/tzk6olp.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script src="js/_fastclick.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/foundation.js"></script>
     <script src="js/min/app-ck.js"></script>

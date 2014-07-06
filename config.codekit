@@ -1322,6 +1322,16 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/webroot\/_frontend\/js\/min\/foundation-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/js\/min\/foundation-ck.js",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/js\/min\/min\/foundation-ck-ck.js",
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/webroot\/_frontend\/js\/modernizr.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -2034,7 +2044,7 @@
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
 	"externalServerAddress": "http:\/\/as.sorted\/",
-	"externalServerPreviewPathAddition": "",
+	"externalServerPreviewPathAddition": "\/webroot\/_frontend\/",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathRelativePath": "",
 	"hamlAutoOutputPathReplace1": "",
