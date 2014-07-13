@@ -1,7 +1,11 @@
 
 
-Menu Toggle Full Width
-Finish Nav for Medium-and-up
+   -- Menu Toggle Full Width
+	+ Finish Nav for Medium-and-up
+	- make header take 100% for all sizes, but different offsets
+		for x-large and up
+	- add bottom shadow to header
+	- Day View
 
-Day View
 
+CONSULT DESIGNS!

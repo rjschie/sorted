@@ -14,24 +14,25 @@
 		<div class="off-canvas-wrap" data-offcanvas>
 			<div class="inner-wrap">
 
-				<div class="as-top-bar hide-for-small-only">
+				<div class="as-top-bar collapse hide-for-small-only">
 					<div class="medium-4 medium-push-4 columns">
 						<h1 id="brand-logo">SORTED</h1>
 					</div>
 					<div class="medium-4 medium-pull-4 columns">
-						<form>
-							<div class="row collapse">
-								<div class="medium-1 columns">
-									<span class="as-prefix-nostyle"><i class="fa fa-search as-fa-adj"></i></span>
-								</div>
-								<div class="medium-11 columns">
-									<input class="as-input-nostyle" type="text" placeholder="search">
-								</div>
+						<form id="search-area" class="row collapse">
+							<div class="medium-1 medium-offset-1 columns">
+								<i class="fa fa-search as-fa-adj"></i>
+							</div>
+							<div class="medium-10 columns">
+								<input type="text" placeholder="SEARCH">
 							</div>
 						</form>
 					</div>
 					<div class="medium-4 columns">
-						<p class="">nav</p>
+						<ul class="as-inline-list">
+							<li><a href="#">SETTINGS</a></li>
+							<li><a href="#">LOGOUT</a></li>
+						</ul>
 					</div>
 				</div>
 
@@ -46,13 +47,22 @@
 
 				<aside class="right-off-canvas-menu show-for-small-only">
 					<ul class="off-canvas-list">
-						<li><label><i class="fa fa-2x">&nbsp;</i></label></li>
+						<li>
+							<form id="search-area" class="row collapse">
+								<div class="small-1 columns">
+									<i class="fa fa-search as-fa-adj"></i>
+								</div>
+								<div class="small-11 columns">
+									<input type="text" class="no-padding" placeholder="SEARCH">
+								</div>
+							</form>
+						</li>
 						<li><a href="#">CALENDAR</a></li>
 						<li><a href="#">COURSES</a></li>
 						<li><a href="#">CAMPUS</a></li>
 						<li><label></label></li>
-						<li><a href="#">Settings</a></li>
-						<li><a href="#">Logout</a></li>
+						<li><a href="#">SETTINGS</a></li>
+						<li><a href="#">LOGOUT</a></li>
 					</ul>
 				</aside>
 

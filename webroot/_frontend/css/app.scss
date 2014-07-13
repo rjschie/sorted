@@ -1,14 +1,35 @@
 
 @import "settings";
 @import "foundation";
+@import "mydefs";
 @import "../../css/font-awesome/font-awesome";
 
 
-body, html {
-	height: 100%;
-	width: 100%;
+
+
+/**
+ * Helpers
+ */
+.test-border {
+	border: 1px solid red !important;
 }
 
+.as-fa-adj {
+	position: relative;
+	line-height: 1.6em;
+}
+
+
+
+body {
+	background-color: #f0f0f0;
+}
+
+
+
+/**
+ * Off-Canvas
+ */
 .off-canvas-wrap,.inner-wrap{
 	height:100%;
 }
@@ -16,19 +37,22 @@ body, html {
 .off-canvas-list a {
 	transition: none !important;
 	&:hover {
-		background-color: #ff895b !important;
+		background-color: $as-orange !important;
 		color: white;
 	}
 }
 
 
-
-
-$as-top-bar-height: rem-calc(45);
+/**
+ * Top Bar
+ */
+$as-top-bar-height: rem-calc(40);
 
 .as-top-bar {
 	@include grid-row();
+	background-color: white;
 	height: $as-top-bar-height;
+	top: rem-calc(10);
 
 	&.collapse {
 		> .column, > .columns {
@@ -41,15 +65,57 @@ $as-top-bar-height: rem-calc(45);
 #brand-logo {
 	text-indent: -9999px;
 	background: url('/img/logo.jpg') no-repeat center;
-	background-size: rem-calc(140);
+	text-align: center;
+	background-size: rem-calc(120);
 	padding: 0;
 	margin: 0;
-	margin-right: -16.6666666666%;
-	height: $as-top-bar-height;
-	font-size: 1.7rem;
+	font-size: 1.6rem;
 	letter-spacing: 8px;
 	line-height: $as-top-bar-height;
 	font-weight: 300;
+
+	@media #{$small-only} {
+		margin-right: -16.6666666666%;
+	}
+}
+
+#search-area {
+	height: $as-top-bar-height;
+	padding-top: $as-top-bar-height/5;
+
+	input {
+		border: none !important;
+		background: none !important;
+		box-shadow: none !important;
+		font-size: .8em !important;
+		font-weight: 300 !important;
+		position: relative;
+		margin: 0 !important;
+		padding: 0.2rem 0.5rem !important;
+		height: auto !important;
+		width: 100%;
+		max-width: rem-calc(200);
+
+		@media #{$small-only} {
+			max-width: 100% !important;
+		}
+
+		&:focus, &:active {
+			background-color: #eaeaea !important;
+			border-radius: 2px;
+			color: black;
+		}
+	}
+
+	@media #{$small-only} {
+		background-color: #fff;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	.fa {
+		color: $as-med-grey;
+	}
 }
 
 .as-menu-toggle {
@@ -67,32 +133,27 @@ $as-top-bar-height: rem-calc(45);
 	}
 }
 
-.as-input-nostyle {
-	border: none !important;
-	background: none !important;
-	box-shadow: none !important;
-	font-size: 1em !important;
-	font-weight: 300 !important;
-	position: relative;
-	top: rem-calc(3);
-	left: rem-calc(5);
-	margin: 0 !important;
+.as-inline-list {
+	margin: 0 auto;
+	list-style: none;
+	overflow: $inline-list-overflow;
+	float: right;
 
-	&:focus, &:active {
-		background: #eee !important;
-		border-radius: 2px;
-		color: black;
+	& > li {
+		float: $default-float;
+		margin-right: rem-calc(12);
+		line-height: $as-top-bar-height;
+
+		& > a {
+			display: block;
+			padding: 0 rem-calc(10);
+			font-size: .83rem;
+			color: $as-med-grey;
+
+			&:hover, &:focus {
+				color: $as-orange;
+			}
+		}
 	}
 }
 
-.as-prefix-nostyle {
-	@include prefix-postfix-base();
-	background: none;
-	border: none;
-	outline: none;
-}
-
-.as-fa-adj {
-	position: relative;
-	top: rem-calc(5);
-}

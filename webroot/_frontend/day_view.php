@@ -1,4 +1,4 @@
 <!-- CONTENT -->
-<div class="content_wrapper">
+<div class="content-wrapper">
 
 </div>

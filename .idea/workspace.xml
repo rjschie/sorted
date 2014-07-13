@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17c3bdad-5d62-4381-9cb7-551d10d19d4c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Errors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/_frontend/TODO.txt" afterPath="$PROJECT_DIR$/webroot/_frontend/TODO.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/_frontend/js/min/app-ck.js" afterPath="$PROJECT_DIR$/webroot/_frontend/js/min/app-ck.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/_frontend/css/_settings.scss" afterPath="$PROJECT_DIR$/webroot/_frontend/css/_settings.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/_frontend/css/min/app.css" afterPath="$PROJECT_DIR$/webroot/_frontend/css/min/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/_frontend/js/app.js" afterPath="$PROJECT_DIR$/webroot/_frontend/js/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/_frontend/css/app.scss" afterPath="$PROJECT_DIR$/webroot/_frontend/css/app.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.codekit" afterPath="$PROJECT_DIR$/config.codekit" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/_frontend/day_view.php" afterPath="$PROJECT_DIR$/webroot/_frontend/day_view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/_frontend/index.php" afterPath="$PROJECT_DIR$/webroot/_frontend/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -40,7 +38,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webroot/_frontend/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="43" selection-start="1173" selection-end="1173" vertical-scroll-proportion="-14.375" vertical-offset="240" max-vertical-offset="1215">
+            <state line="10" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="-0.0" vertical-offset="150" max-vertical-offset="1365">
               <folding />
             </state>
           </provider>
@@ -49,27 +47,39 @@
       <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="-24.375" vertical-offset="0" max-vertical-offset="1560">
+            <state line="105" column="25" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="2475">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/_frontend/js/app.js">
+      <file leaf-file-name="_mydefs.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/_mydefs.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+            <state line="2" column="22" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TODO.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TODO.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webroot/_frontend/TODO.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.044313148" vertical-offset="0" max-vertical-offset="677">
+            <state line="11" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="255">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHANGES.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/webroot/_frontend/CHANGES.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="21" selection-start="275" selection-end="275" vertical-scroll-proportion="0.3923077" vertical-offset="0" max-vertical-offset="650">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -91,9 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/controllers/EventsController.php" />
-        <option value="$PROJECT_DIR$/webroot/_frontwork/day_view.html" />
-        <option value="$PROJECT_DIR$/webroot/css/day.scss" />
         <option value="$PROJECT_DIR$/webroot/css/app.scss" />
         <option value="$PROJECT_DIR$/webroot/css/_day.scss" />
         <option value="$PROJECT_DIR$/views/events/day.html.php" />
@@ -101,17 +108,20 @@
         <option value="$PROJECT_DIR$/webroot/_frontend/day_view.html" />
         <option value="$PROJECT_DIR$/webroot/_frontend/scss/app.scss" />
         <option value="$PROJECT_DIR$/webroot/_frontend/index.html" />
-        <option value="$PROJECT_DIR$/webroot/_frontend/day_view.php" />
         <option value="$PROJECT_DIR$/webroot/_frontend/js/foundation.js" />
-        <option value="$PROJECT_DIR$/webroot/_frontend/index.php" />
-        <option value="$PROJECT_DIR$/webroot/_frontend/css/app.scss" />
         <option value="$PROJECT_DIR$/webroot/_frontend/js/app.js" />
+        <option value="$PROJECT_DIR$/webroot/_frontend/css/_settings.scss" />
+        <option value="$PROJECT_DIR$/webroot/_frontend/index.php" />
+        <option value="$PROJECT_DIR$/webroot/_frontend/day_view.php" />
+        <option value="$PROJECT_DIR$/webroot/_frontend/css/_mydefs.scss" />
         <option value="$PROJECT_DIR$/webroot/_frontend/TODO.txt" />
+        <option value="$PROJECT_DIR$/webroot/_frontend/CHANGES.txt" />
+        <option value="$PROJECT_DIR$/webroot/_frontend/css/app.scss" />
       </list>
     </option>
   </component>
   <component name="NamedScopeManager">
-    <scope name="Frontend" pattern="file:webroot/_frontend//*" />
+    <scope name="Frontend" pattern="file:webroot/_frontend//*||file:CHANGES.txt" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
     <include_path>
@@ -119,9 +129,9 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="669" />
+    <option name="x" value="681" />
     <option name="y" value="22" />
-    <option name="width" value="771" />
+    <option name="width" value="759" />
     <option name="height" value="823" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -191,72 +201,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sorted" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_frontend" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
-        <subPane subId="Default">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane subId="Default" />
         <subPane subId="Problems" />
-        <subPane subId="Tests" />
         <subPane subId="Frontend">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Sorted">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="webroot/_frontend">
+            <PATH_ELEMENT USER_OBJECT="Sorted/webroot/_frontend">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -266,20 +222,17 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Sorted">
+            <PATH_ELEMENT USER_OBJECT="Sorted/webroot/_frontend">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="webroot/_frontend">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
+            <PATH_ELEMENT USER_OBJECT="css">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
+        <subPane subId="Tests" />
         <subPane subId="Project Files" />
         <subPane subId="Changed Files" />
       </pane>
@@ -288,12 +241,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="TODO_SCOPE" value="Project Files" />
     <property name="options.lastSelected" value="editing.templates" />
+    <property name="TODO_SCOPE" value="Project Files" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../data/li3_libs/lithium" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -312,6 +265,12 @@
         </serverdata>
       </server>
     </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webroot/_frontend" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -376,28 +335,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="669" y="22" width="771" height="823" extended-state="0" />
+    <frame x="681" y="22" width="759" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6241135" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40709218" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24827586" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30620688" sideWeight="0.6700143" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24824685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30575034" sideWeight="0.6700143" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6241135" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -412,31 +371,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/webroot/css/_day.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="75" selection-end="75" vertical-scroll-proportion="0.13782541" vertical-offset="0" max-vertical-offset="653" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/events/day.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="0" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/_masthead.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="2100" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/css/font-awesome/font-awesome.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="664" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/foundation/components/_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="22" selection-start="5024" selection-end="5024" vertical-scroll-proportion="0.4453125" vertical-offset="2250" max-vertical-offset="5565" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/foundation/components/_offcanvas.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="53" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.34146342" vertical-offset="525" max-vertical-offset="5805" />
@@ -447,69 +381,97 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/_settings.scss">
+    <entry file="file://$PROJECT_DIR$/webroot/_frontend/js/_fastclick.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="698" column="21" selection-start="23062" selection-end="23062" vertical-scroll-proportion="0.359375" vertical-offset="10240" max-vertical-offset="19455" />
+        <state line="12" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="0.27108434" vertical-offset="0" max-vertical-offset="11940" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/foundation/components/_forms.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="383" column="22" selection-start="12551" selection-end="12551" vertical-scroll-proportion="0.40650406" vertical-offset="5495" max-vertical-offset="7530" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/foundation.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="144" selection-end="144" vertical-scroll-proportion="0.06891271" vertical-offset="45" max-vertical-offset="765" />
+        <state line="20" column="28" selection-start="647" selection-end="647" vertical-scroll-proportion="0.4502297" vertical-offset="6" max-vertical-offset="765" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/_frontend/day_view.php">
+    <entry file="file://$PROJECT_DIR$/webroot/_frontend/js/foundation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="54" selection-end="54" vertical-scroll-proportion="0.06891271" vertical-offset="0" max-vertical-offset="653">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/_frontend/js/_fastclick.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="0.27108434" vertical-offset="0" max-vertical-offset="11940">
+        <state line="15" column="12" selection-start="367" selection-end="367" vertical-scroll-proportion="0.33885542" vertical-offset="0" max-vertical-offset="81435">
           <folding>
             <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/_frontend/js/foundation.js">
+    <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/_settings.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4898" column="45" selection-start="155131" selection-end="155131" vertical-scroll-proportion="0.33246073" vertical-offset="73343" max-vertical-offset="81435">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1404636314000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1404636314000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/_frontend/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="43" selection-start="1173" selection-end="1173" vertical-scroll-proportion="-14.375" vertical-offset="240" max-vertical-offset="1215">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="502" selection-end="502" vertical-scroll-proportion="-24.375" vertical-offset="0" max-vertical-offset="1560">
+        <state line="80" column="36" selection-start="2517" selection-end="2517" vertical-scroll-proportion="0.6328125" vertical-offset="795" max-vertical-offset="19455">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/_frontend/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="698" selection-end="698" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="24" column="0" selection-start="698" selection-end="698" vertical-scroll-proportion="0.5421687" vertical-offset="0" max-vertical-offset="664" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/min/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6684" column="0" selection-start="174070" selection-end="174391" vertical-scroll-proportion="0.50301206" vertical-offset="99926" max-vertical-offset="100590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/foundation/components/_inline-lists.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="849" selection-end="1330" vertical-scroll-proportion="0.7151608" vertical-offset="28" max-vertical-offset="930" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="25" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="2475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/_frontend/css/_mydefs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="22" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="120">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/_frontend/TODO.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="2" selection-end="2" vertical-scroll-proportion="0.044313148" vertical-offset="0" max-vertical-offset="677">
+        <state line="11" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/_frontend/day_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.045941807" vertical-offset="0" max-vertical-offset="653">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/_frontend/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="304" selection-end="304" vertical-scroll-proportion="-0.0" vertical-offset="150" max-vertical-offset="1365">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webroot/_frontend/CHANGES.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="275" selection-end="275" vertical-scroll-proportion="0.3923077" vertical-offset="0" max-vertical-offset="650">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
   </component>
