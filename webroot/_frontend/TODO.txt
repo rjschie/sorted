@@ -1,11 +1,19 @@
 
 
+HEADER BAR
+==============
    -- Menu Toggle Full Width
 	+ Finish Nav for Medium-and-up
 	- make header take 100% for all sizes, but different offsets
 		for x-large and up
 	- add bottom shadow to header
-	- Day View
+	- letter-spacing for header links (incl. "SEARCH")
+	- bolder font (curr. at 300)
+	- move search icon closer to search field
+	- slightly smaller "SORTED"
+	- slightly smaller nav links
 
 
-CONSULT DESIGNS!
+HOME PAGE
+=============
+	-

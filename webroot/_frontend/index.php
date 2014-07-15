@@ -21,7 +21,7 @@
 					<div class="medium-4 medium-pull-4 columns">
 						<form id="search-area" class="row collapse">
 							<div class="medium-1 medium-offset-1 columns">
-								<i class="fa fa-search as-fa-adj"></i>
+								<i class="fa fa-search"></i>
 							</div>
 							<div class="medium-10 columns">
 								<input type="text" placeholder="SEARCH">
@@ -66,7 +66,7 @@
 					</ul>
 				</aside>
 
-				<?php include('day_view.php'); ?>
+				<?php include('home_view.php'); ?>
 
 				<a class="exit-off-canvas"></a>
 			</div>

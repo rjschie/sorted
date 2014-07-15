@@ -170,11 +170,11 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/extensions\/command\/test.php": {
+	"\/extensions\/command\/Test.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/extensions\/command\/test.php",
+		"inputAbbreviatedPath": "\/extensions\/command\/Test.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -1069,6 +1069,14 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
+	"\/webroot\/_frontend\/home_view.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/home_view.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsSetByUser": 0
+		},
 	"\/webroot\/_frontend\/img\/login.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1086,6 +1094,66 @@
 		"initialSize": 103281,
 		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/login_sm.jpg",
 		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/login_sm.jpg",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/_frontend\/img\/portraits\/Abbey.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 285323,
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Abbey.png",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Abbey.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/_frontend\/img\/portraits\/Brenda.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 271363,
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Brenda.png",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Brenda.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/_frontend\/img\/portraits\/Matt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 326306,
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Matt.png",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Matt.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/_frontend\/img\/portraits\/Naomi.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 285626,
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Naomi.png",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Naomi.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/_frontend\/img\/portraits\/Staci.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 418481,
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Staci.png",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Staci.png",
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/webroot\/_frontend\/img\/portraits\/Steven.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 233495,
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Steven.png",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Steven.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
