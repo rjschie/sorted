@@ -78,10 +78,10 @@ use lithium\data\Connections;
 	'production' => array(
 		'type' => 'database',
 		'adapter' => 'MySql',
-		'host' => 'localhost',
-		'login' => 'root',
-		'password' => 'rschie',
-		'database' => 'app_sorted',
+		'host' => 'internal-db.s192738.gridserver.com',
+		'login' => 'db192738',
+		'password' => '0ziQf8n6$@#62d',
+		'database' => 'db192738_app_sorted',
 		'encoding' => 'UTF-8'
 	)
  ));
