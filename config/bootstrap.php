@@ -27,8 +27,12 @@
 /**
  * Error setting
  */
-ini_set("display_errors", 1);
-//if(function_exists('xdebug_disable')) { xdebug_disable(); }
+// if($request->env('HTTP_HOST') == 'ryanschie.com') {
+// 	ini_set("display_errors", 0);
+// } else {
+	ini_set("display_errors", 1);
+	//if(function_exists('xdebug_disable')) { xdebug_disable(); }
+// }
 
 /**
  * The libraries file contains the loading instructions for all plugins, frameworks and other class

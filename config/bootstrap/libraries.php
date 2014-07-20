@@ -60,7 +60,15 @@ define('LITHIUM_APP_PATH', dirname(dirname(__DIR__)));
  * set this to a shared path on your server.
  */
 // define('LITHIUM_LIBRARY_PATH', dirname(LITHIUM_APP_PATH) . '/libraries');
-define('LITHIUM_LIBRARY_PATH', dirname('/Users/ryanschie/_Web/data/li3_libs/lithium'));
+
+
+
+if($request->env('HTTP_HOST') == 'ryanschie.com') {
+	define('LITHIUM_LIBRARY_PATH', dirname('~/data/li3_libs/lithium'));
+} else {
+	define('LITHIUM_LIBRARY_PATH', dirname('/Users/ryanschie/_Web/data/li3_libs/lithium'));
+}
+
 
 /**
  * Locate and load Lithium core library files.  Throws a fatal error if the core can't be found.
