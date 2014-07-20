@@ -27,7 +27,7 @@
 /**
  * Error setting
  */
-// if($request->env('HTTP_HOST') == 'ryanschie.com') {
+// if($_SERVER['HTTP_HOST'] == 'ryanschie.com') {
 // 	ini_set("display_errors", 0);
 // } else {
 	ini_set("display_errors", 1);
