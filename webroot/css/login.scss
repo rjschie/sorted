@@ -43,7 +43,7 @@
  */
 body {
 
-	background: $light-grey url('img/login.jpg');
+	background: $light-grey url('../../img/login.jpg');
 	background-repeat: no-repeat;
 	background-position: 50% 20%;
 
@@ -68,7 +68,7 @@ body {
 		width: 100%;
 		text-indent: -9999px;
 		color: rgba(0,0,0,0);
-		background: url('img/logo.jpg') no-repeat center;
+		background: url('../../img/logo.jpg') no-repeat center;
 		background-size: 80%;
 	}
 

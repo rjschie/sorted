@@ -170,11 +170,11 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
-	"\/extensions\/command\/Test.php": {
+	"\/extensions\/command\/test.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/extensions\/command\/Test.php",
+		"inputAbbreviatedPath": "\/extensions\/command\/test.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsSetByUser": 0
 		},
@@ -1097,63 +1097,63 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/webroot\/_frontend\/img\/portraits\/Abbey.png": {
+	"\/webroot\/_frontend\/img\/portraits\/abbey.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 285323,
-		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Abbey.png",
-		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Abbey.png",
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/abbey.png",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/abbey.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/webroot\/_frontend\/img\/portraits\/Brenda.png": {
+	"\/webroot\/_frontend\/img\/portraits\/brenda.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 271363,
-		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Brenda.png",
-		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Brenda.png",
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/brenda.png",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/brenda.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/webroot\/_frontend\/img\/portraits\/Matt.png": {
+	"\/webroot\/_frontend\/img\/portraits\/matt.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 326306,
-		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Matt.png",
-		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Matt.png",
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/matt.png",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/matt.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/webroot\/_frontend\/img\/portraits\/Naomi.png": {
+	"\/webroot\/_frontend\/img\/portraits\/naomi.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 285626,
-		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Naomi.png",
-		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Naomi.png",
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/naomi.png",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/naomi.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/webroot\/_frontend\/img\/portraits\/Staci.png": {
+	"\/webroot\/_frontend\/img\/portraits\/staci.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 418481,
-		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Staci.png",
-		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Staci.png",
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/staci.png",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/staci.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/webroot\/_frontend\/img\/portraits\/Steven.png": {
+	"\/webroot\/_frontend\/img\/portraits\/steven.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 233495,
-		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Steven.png",
-		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/Steven.png",
+		"inputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/steven.png",
+		"outputAbbreviatedPath": "\/webroot\/_frontend\/img\/portraits\/steven.png",
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
@@ -1876,7 +1876,7 @@
 		"inputAbbreviatedPath": "\/webroot\/css\/login.scss",
 		"outputAbbreviatedPath": "\/webroot\/css\/min\/login.css",
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 3,
+		"outputStyle": 1,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0

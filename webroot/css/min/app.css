@@ -4404,7 +4404,7 @@ body {
   line-height: 1.76471;
   letter-spacing: .25em;
   text-indent: -9999%;
-  background: url("img/logo.jpg") no-repeat center;
+  background: url("../../img/logo.jpg") no-repeat center;
   background-size: 130px;
 }
 #masthead .pure-menu ul {
