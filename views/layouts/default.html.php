@@ -46,11 +46,15 @@
 <!-- SCRIPTS -->
 <script type="text/javascript" src="//use.typekit.net/tzk6olp.js"></script>
 <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+<?php
+use lithium\core\Environment;
+$jquery_path = (Environment::is('production')) ? '//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js' : 'min/jquery.min.js';
+$modernizr_path = (Environment::is('production')) ? '//ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js' : 'min/modernizr.js';
+?>
 <?php echo $this->html->script( array(
-	'min/jquery.min.js',
-	'min/modernizr.js',
-//	'//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js',	// TODO PRODUCTION: uncomment
-//	'//ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js',
+	$jquery_path,
+	$modernizr_path,
 	'min/app-ck.js',
 )); ?>
 </body>
