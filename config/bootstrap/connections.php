@@ -69,6 +69,15 @@ use lithium\data\Connections;
 		'database' => 'app_sorted',
 		'encoding' => 'UTF-8'
 	),
+//	'development' => array(
+//		'type' => 'database',
+//		'adapter' => 'MySql',
+//		'host' => 'external-db.s192738.gridserver.com',
+//		'login' => 'db192738',
+//		'password' => '0ziQf8n6$@#62d',
+//		'database' => 'db192738_app_sorted',
+//		'encoding' => 'UTF-8'
+//	),
 	'test' => array(
 		'type' => 'database',
 		'adapter' => 'Sqlite3',

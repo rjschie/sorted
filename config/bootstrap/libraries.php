@@ -63,7 +63,7 @@ define('LITHIUM_APP_PATH', dirname(dirname(__DIR__)));
 
 
 
-if($_SERVER['HTTP_HOST'] == 'ryanschie.com') {
+if(strpos($_SERVER['HTTP_HOST'], 'ryanschie.com')) {
 	define('LITHIUM_LIBRARY_PATH', dirname('/home/192738/users/.home/data/li3_libs/lithium'));
 } else {
 	define('LITHIUM_LIBRARY_PATH', dirname('/Users/ryanschie/_Web/data/li3_libs/lithium'));

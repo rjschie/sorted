@@ -9,9 +9,11 @@
       <library name="PHP">
         <CLASSES>
           <root url="file://$MODULE_DIR$/../../../data/li3_libs/lithium" />
+          <root url="file://$MODULE_DIR$/../../../data/li3_libs/li3_fixtures" />
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/../../../data/li3_libs/lithium" />
+          <root url="file://$MODULE_DIR$/../../../data/li3_libs/li3_fixtures" />
         </SOURCES>
       </library>
     </orderEntry>

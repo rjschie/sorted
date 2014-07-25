@@ -3,13 +3,14 @@
 namespace app\tests\cases\controllers;
 
 use lithium\action\Request;
-use li3_fixtures\test\Fixtures;
 use lithium\net\http\Router;
+use lithium\security\Auth;
+use li3_fixtures\test\Fixtures;
 use app\controllers\SessionsController;
 
 class SessionsControllerTest extends \lithium\test\Unit {
 
-	private $sut;
+	private $_sut;
 
 	public function setUp() {
 		Fixtures::config(array(
@@ -24,25 +25,16 @@ class SessionsControllerTest extends \lithium\test\Unit {
 
 		Fixtures::save( 'db' );
 		Router::connect( '/{:controller}/{:action}/{:args}' );
-
-		$request = new Request();
-		$request->data = array(
-			'username' => 'foobar',
-			'password' => 'bazbup',
-		);
-
-		$this->sut = new SessionsController( array( 'request' => $request ) );
 	}
 
 	public function tearDown() {
-//		Fixtures::clear( 'db' );
-		\lithium\storage\Session::clear();
+		Fixtures::clear( 'db' );
+		Auth::clear('default');
+//		\lithium\storage\Session::clear();
 	}
 
-	public function testCannotLogInAsNonExistingUser() {
-		$response = $this->sut->add();
-		$this->assert( $response['loginFailed'] );
-	}
+
+
 
 	public function testCanLogInAsUser() {
 
@@ -53,13 +45,19 @@ class SessionsControllerTest extends \lithium\test\Unit {
 		$user->created = 1298798;
 		$user->save();
 
+		//Create Request
+		$loginRequest = new Request();
+		$loginRequest->data = array(
+			'username' => 'foobar',
+			'password' => 'bazbup',
+		);
+		$this->_sut = new SessionsController( array( 'request' => $loginRequest ) );
+
 		// Add to session
-		$response = $this->sut->add();
+		$response = $this->_sut->add();
 		$this->assertEqual( 302, $response->status['code'] );
 
-		// Remove from session
-		$logoutResponse = $this->sut->remove();
-		$this->assertEqual( 302, $logoutResponse->status['code'] );
+		return $response;
 	}
 }
 
