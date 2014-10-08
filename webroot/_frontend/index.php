@@ -66,7 +66,7 @@
 					</ul>
 				</aside>
 
-				<?php include('home_view.php'); ?>
+				<?php include('day_view.php'); ?>
 
 				<a class="exit-off-canvas"></a>
 			</div>

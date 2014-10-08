@@ -6583,6 +6583,9 @@ th.hide-for-touch {
 .fa-plus-square-o:before {
   content: "\f196"; }
 
+time {
+  display: block; }
+
 /**
  * Helpers
  */
