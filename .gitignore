@@ -1,11 +1,7 @@
-/.codekit-cache.DS_Store
+/.codekit-cache
 /_design
-libraries/*
-resources/tmp/cache/templates/*
-resources/tmp/db/*
-resources/tmp/logs/*
-resources/tmp/tests/*
 .*.sw[op]
 .sass-cache
 *.scssc
 *.bowerrc
+*.DS_Store
